@@ -13,6 +13,7 @@ html {
 main {
     width: 300px;
     margin: 0px auto;
+
 }
 
 p {
@@ -21,7 +22,10 @@ p {
 
 a {
     text-decoration:none
+}
 
+h2{
+    font-family: Gill Sans, sans-serif;
 }
 
 /* Колонки */
