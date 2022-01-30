@@ -53,8 +53,28 @@ h2{
 /* Login*/
 
 .input-login {
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    font-family: Arial;
+    font-size: 17px;
+    border-style:solid;
+    border-color:#ADD8E6;
+}
 
-
+.button {
+    width:300px;
+    height: 40px;
+    margin-top: 15px;
+    border-style:solid;
+    border-color:#1E90FF;
+    background-color: #1E90FF;
+    border-radius: 10px;
+    font-weight: 600
 }
 
 
