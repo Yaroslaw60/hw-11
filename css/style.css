@@ -17,7 +17,7 @@ main {
 }
 
 p {
-    font-family: Andale Mono, monospace;
+    font-family: Trebuchet MS, sans-serif;
     font-size: 17px;
     font-weight: 600;
 
@@ -25,6 +25,7 @@ p {
 }
 
 a {
+    font-family: Trebuchet MS, sans-serif;
     text-decoration:none
 }
 
@@ -48,6 +49,17 @@ h2{
 /* Потом селекторы по классам */
 
 .text-input {
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 17px;
+    border-style:solid;
+    border-color:#ADD8E6;
 
 }
 
@@ -67,7 +79,7 @@ h2{
     text-align: center;
     background-color: #D3D3D3;
     border-radius: 10px;
-    font-family: Arial;
+    font-family: Trebuchet MS, sans-serif;
     font-size: 17px;
     border-style:solid;
     border-color:#ADD8E6;
@@ -81,7 +93,7 @@ h2{
     border-color:#B0E0E6;
     background-color: #B0E0E6;
     border-radius: 10px;
-    font-family: Andale Mono, monospace;
+    font-family: Trebuchet MS, sans-serif;
     font-size: 17px;
     font-weight: 600;
 }
@@ -92,7 +104,7 @@ h2{
 .genre-first {
     width: 400px;
     height: 40px;
-    font-family: Andale Mono, monospace;
+    font-family: Trebuchet MS, sans-serif;
     font-size: 17px;
     font-weight: 600;
     border-style: solid;
@@ -112,7 +124,7 @@ h2{
 .genre-second {
     width: 300px;
     height: 40px;
-    font-family: Andale Mono, monospace;
+    font-family: Trebuchet MS, sans-serif;
     font-size: 17px;
     font-weight: 600;
     border-style: solid;
@@ -130,7 +142,7 @@ h2{
 .genre-third {
     width: 200px;
     height: 40px;
-    font-family: Andale Mono, monospace;
+    font-family: Trebuchet MS, sans-serif;
     font-size: 17px;
     font-weight: 600;
     border-style: solid;
@@ -148,7 +160,7 @@ h2{
 .genre-fourth {
     width: 120px;
     height: 40px;
-    font-family: Andale Mono, monospace;
+    font-family: Trebuchet MS, sans-serif;
     font-size: 17px;
     font-weight: 600;
     border-style: solid;
@@ -182,17 +194,68 @@ h2{
 /* Страничка подписки  */
 
 .box-green {
+    font-family: Trebuchet MS, sans-serif;
+    border-style:solid;
+    border-color:#98FB98;
+    border-radius:5px;
+    background-color:#98FB98;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right:20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:0px;
+    margin-right:20px;
+
 
 }
 
 .box-purple {
+    font-family: Trebuchet MS, sans-serif;
+    border-style:solid;
+    border-color:#E6E6FA;
+    border-radius:5px;
+    background-color:#E6E6FA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right:20px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left:0px;
+    margin-right:20px;
 
 }
 
 .text-large {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
 
 }
 
 .button-link {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    border-style:solid;
+    border-color:#D3D3D3;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:0px;
+    margin-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right:20px;
+
+
+
+
 
 }
