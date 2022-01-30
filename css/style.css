@@ -17,6 +17,10 @@ main {
 }
 
 p {
+    font-family: Andale Mono, monospace;
+    font-size: 17px;
+    font-weight: 700;
+
 
 }
 
@@ -25,15 +29,18 @@ a {
 }
 
 h2{
-    font-family: Gill Sans, sans-serif;
+    font-family: Andale Mono, monospace;
+    font-size: 30px
 }
 
 /* Колонки */
 
 .row {
+    display: flex;
 
 }
 .col {
+    flex: auto;
 
 }
 
@@ -71,30 +78,92 @@ h2{
     height: 40px;
     margin-top: 15px;
     border-style:solid;
-    border-color:#1E90FF;
-    background-color: #1E90FF;
+    border-color:#B0E0E6;
+    background-color: #B0E0E6;
     border-radius: 10px;
-    font-weight: 600
+    font-family: Andale Mono, monospace;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 
 /* Страничка жанров и тегов */
 
 .genre-first {
+    width: 400px;
+    height: 40px;
+    font-family: Andale Mono, monospace;
+    font-size: 17px;
+    font-weight: 500;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #D8BFD8;
+    background-color: #D8BFD8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 120px;
+    margin-top: 10px;
+
+
 
 }
 
 .genre-second {
+    width: 300px;
+    height: 40px;
+    font-family: Andale Mono, monospace;
+    font-size: 17px;
+    font-weight: 500;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #98FB98;
+    background-color: #98FB98;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 120px;
+    margin-top: 10px;
 
 }
 
 .genre-third {
+    width: 200px;
+    height: 40px;
+    font-family: Andale Mono, monospace;
+    font-size: 17px;
+    font-weight: 500;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #FFA07A;
+    background-color: #FFA07A;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 120px;
+    margin-top: 10px;
 
 }
 
 .genre-fourth {
+    width: 120px;
+    height: 40px;
+    font-family: Andale Mono, monospace;
+    font-size: 17px;
+    font-weight: 500;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #FFB6C1;
+    background-color: #FFB6C1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 
 }
+
 
 .tag {
 
